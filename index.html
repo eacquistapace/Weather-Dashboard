@@ -12,7 +12,40 @@
 </head>
 
 <body>
-    
+    <!--Jumbotron to display searched city name-->
+    <div id="header" class="jumbotron jumbotron-fluid text-container">
+        <h1>City Name Here</h1>
+    </div>
+
+    <!--Main container-->
+    <div id="content" class="container">
+        <div class="row">
+
+            <!--Left side content w/ city search box and stored searches-->
+            <div id="content-left" class="col-md-3">
+                <form>
+                    <label for="search-city">Search for a City:</label>
+                    <div class="form-row">
+                        <!--Search box-->
+                        <input id="search-city" class="form-control" name="city" value="Austin"></input>
+                        <!--Search button-->
+                        <button id="search-button" class="btn btn-primary" type="submit"></button>
+                    </div>
+                </form>
+                <div id="search-error"></div>
+                <!--List of searched cities-->
+                <ul id="city-results" class="list-group mt-4"></ul>   
+            </div>
+
+            <!--Right side content w/ current weather and five day forecast-->
+            <div id="content-right" class="col-md-9 pt-4">
+                <!--Current weather-->
+                <div id="current-weather" class="border rounded"></div>
+                <!--Five day forecast-->
+                <div id="five-day-forecast" class="mt-5"></div>
+            </div>
+        </div>
+    </div>
 
     <!--JQuery-->
     <script src="jquery-3.6.0.min.js"></script>
