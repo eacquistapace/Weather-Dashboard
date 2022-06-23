@@ -14,7 +14,9 @@
 
 ## Description
 ---
-This app uses JavaScript, HTML, and CSS to retrieve data from a third-party API in order to look up the weather in a specific area by a user. The user is presented with a search box in which they enter a city name of their choice. After clicking search, the user is then able to see the temperature, humidity, wind speed, UV index, and a five day forecast of their selected city. The deployed application can be accessed here: , or in the about section of this repository.
+This app uses JavaScript, HTML, and CSS to retrieve data from a third-party API in order to look up the weather in a specific area by a user. The user is presented with a search box in which they enter a city name of their choice. After clicking search, the user is then able to see the temperature, humidity, wind speed, UV index, and a five day forecast of their selected city. The deployed application can be accessed here: https://eacquistapace.github.io/Weather-Dashboard/, or in the about section of this repository.
+    
+![weather-dashboard-screenshot](https://user-images.githubusercontent.com/104277073/175202497-07a66422-8e78-4615-baaa-8c126c85c25c.jpg)
 
 ## Contributors
 ---
