@@ -68,7 +68,6 @@ var getCurrentConditions = (event) => {
         longitude +
         "&APPID=" +
         owmAPI;
-      uvQueryURL = "https://cors-anywhere.herokuapp.com/" + uvQueryURL;
       //Fetch UV information and build the color display
       fetch(uvQueryURL)
         .then(handleErrors)
